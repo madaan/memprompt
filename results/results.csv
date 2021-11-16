@@ -1,4 +1,4 @@
-question,gold,GPT-3 generated,with_mem_learned_ir generated
+question,gold,GPT-3 generated,GPT-3 + Memory generated
 what is a sentence that can be used to define < phrase > ?,the definition of phrase is a mode or form of speech,a sentence with phrase is: [ phrase ] is a short [ phrase ],a sentence with phrase is: [ phrase ] is the most common meaning of the word
 < ship > can be used how ?,a sentence with ship is: cooperation a helicopter on the deck of ship while a helicopter comes,a sentence with ship is: a cruise ship is a ship with lots of cabins.,a sentence with ship is: the [ ship ] arrives in the harbor
 what is a sentence that can be used to define < wassail > ?,the definition of wassail is an ancient expression of good wishes on a festive occasion,a sentence with wassail is: < wassail > wassails the christmas season,the definition of wassail is to drink to the health of.
