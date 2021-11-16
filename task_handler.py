@@ -17,9 +17,9 @@ class TaskHandler(object):
         template_class,
         load_raw_data: bool = False,
         task_types = ["syn", "ant", "hom", "defn", "sent"],
-        wordnet_raw_data_path: str = "memprompt/data/wordnet/raw.jsonl",
-        commongen_raw_data_path: str = "memprompt/data/commongen/raw.jsonl",
-        defn_raw_data_path: str = "memprompt/data/defn/raw.jsonl",
+        wordnet_raw_data_path: str = "data/wordnet/raw.jsonl",
+        commongen_raw_data_path: str = "data/commongen/raw.jsonl",
+        defn_raw_data_path: str = "data/defn/raw.jsonl",
     ):
         self.task_types = task_types
         if load_raw_data:
@@ -179,10 +179,10 @@ def dump_tasks(n, template_class, task_types):
     # distribution of template ids
     logging.info(Counter(task["template_id"] for task in tasks))
     # write to a file
-    pathlib.Path(f"memprompt/tasks/{template_class}").mkdir(parents=True, exist_ok=True)
+    pathlib.Path(f"tasks/{template_class}").mkdir(parents=True, exist_ok=True)
     # is the input different from the standard task types?
     tasks_meta = "tasks" if set(task_types).difference(set(DEFAULT_TASK_TYPES)) == 0  else f"tasks_{','.join(task_types)}"
-    out_fp = f"memprompt/tasks/{template_class}/{tasks_meta}_{n}.jsonl"
+    out_fp = f"tasks/{template_class}/{tasks_meta}_{n}.jsonl"
     with open(out_fp, "w") as f:
         for task in tasks:
             f.write(json.dumps(task) + "\n")
