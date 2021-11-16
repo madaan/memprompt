@@ -1,5 +1,7 @@
 # Memprompt
 
+![Memprompt](res/architecture-v2.png)
+
 ## Running a job
 
 _Please note that you need to `export OPENAI_API_KEY="YOUR_OPENAI_KEY` before running the scripts._
