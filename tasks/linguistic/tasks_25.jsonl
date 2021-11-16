@@ -1,0 +1,25 @@
+{"meta": {"word1": "brooch", "word2": "brood"}, "type": "hom", "template_id": "hom0"}
+{"meta": {"word": "rectangle", "definition": "A four-sided figure having only right angles"}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word1": "aid", "word2": "maid"}, "type": "hom", "template_id": "hom0"}
+{"meta": {"word": "field", "sentence": "a large wind turbine in a field produces electricity"}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word1": "caffeine", "word2": "ingredient"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word1": "measurement", "word2": "calibration"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word": "pause", "definition": "In writing and printing"}, "type": "defn", "template_id": "defn1"}
+{"meta": {"word1": "slow", "word2": "low"}, "type": "hom", "template_id": "hom1"}
+{"meta": {"word1": "tomato", "word2": "tomato-plant"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word1": "son", "word2": "so"}, "type": "hom", "template_id": "hom2"}
+{"meta": {"word": "sandwich", "sentence": "Toasted sandwich with tomato, lettuce, cheese, and chips."}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word": "lavender", "sentence": "lavender for sale at the market"}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word": "harbour", "sentence": "tall ship tied up in harbour"}, "type": "sent", "template_id": "sent1"}
+{"meta": {"word": "sprightliness", "definition": "The quality or state of being sprightly"}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word": "wasp", "sentence": "big wasp starting to build a nest under a palm leaf"}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word1": "geologic", "word2": "biologic"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word": "tossing", "definition": "A process which consists in washing ores by violent agitation in water"}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word1": "foist", "word2": "ignore"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word1": "mantle", "word2": "cape"}, "type": "syn", "template_id": "syn1"}
+{"meta": {"word1": "spring", "word2": "rest"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word1": "confer", "word2": "retrieve"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word1": "ours", "word2": "hours"}, "type": "hom", "template_id": "hom1"}
+{"meta": {"word": "relievement", "definition": "The act of relieving"}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word1": "unfavorable", "word2": "adverse"}, "type": "syn", "template_id": "syn1"}
+{"meta": {"word1": "despotic", "word2": "oppressive"}, "type": "syn", "template_id": "syn0"}

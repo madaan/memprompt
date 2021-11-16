@@ -1,0 +1,300 @@
+{"meta": {"word1": "load", "word2": "loan"}, "type": "hom", "template_id": "hom2"}
+{"meta": {"word1": "awaken", "word2": "deaden"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word": "pound", "definition": "A certain specified weight"}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word": "mysticism", "definition": "The doctrine of the Mystics"}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word1": "elephant", "word2": "plant"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word1": "plain", "word2": "lain"}, "type": "hom", "template_id": "hom2"}
+{"meta": {"word1": "symbolic", "word2": "useless"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word1": "metropolitan", "word2": "urban"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word1": "tabulate", "word2": "randomize"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word1": "invalidate", "word2": "undermine"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word": "skin", "sentence": "love the contrast of his dark skin with the white hair ."}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word1": "lock", "word2": "block"}, "type": "hom", "template_id": "hom1"}
+{"meta": {"word1": "summery", "word2": "summary"}, "type": "hom", "template_id": "hom1"}
+{"meta": {"word1": "ink", "word2": "tattoo"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word1": "craze", "word2": "crater"}, "type": "hom", "template_id": "hom1"}
+{"meta": {"word": "plane", "sentence": "a plane comes into land are seen from the air"}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word1": "threw", "word2": "throw"}, "type": "hom", "template_id": "hom0"}
+{"meta": {"word1": "swat", "word2": "guide"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word": "oophyte", "definition": "Any plant of a proposed class or grand division (collectively termed oophytes or Oophyta)"}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word1": "maze", "word2": "made"}, "type": "hom", "template_id": "hom0"}
+{"meta": {"word1": "court", "word2": "ignore"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word1": "forte", "word2": "fort"}, "type": "hom", "template_id": "hom0"}
+{"meta": {"word1": "wain", "word2": "wail"}, "type": "hom", "template_id": "hom1"}
+{"meta": {"word1": "mantle", "word2": "cover"}, "type": "syn", "template_id": "syn1"}
+{"meta": {"word1": "clique", "word2": "clue"}, "type": "hom", "template_id": "hom0"}
+{"meta": {"word1": "cameraman", "word2": "playwright"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word": "meniscus", "definition": "A lens convex on one side and concave on the other."}, "type": "defn", "template_id": "defn1"}
+{"meta": {"word": "hermaphroditism", "definition": "The union of the two sexes in the same individual"}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word": "plant", "sentence": "small plant grows from a crack between a tile and wall"}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word": "rationalization", "definition": "The act or process of rationalizing."}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word": "bathroom", "sentence": "these patterned floor tiles subtly contrast the neutral white tones in this bathroom ."}, "type": "sent", "template_id": "sent1"}
+{"meta": {"word1": "musician", "word2": "athlete"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word1": "fetid", "word2": "feat"}, "type": "hom", "template_id": "hom0"}
+{"meta": {"word": "chymification", "definition": "The conversion of food into chyme by the digestive action of gastric juice."}, "type": "defn", "template_id": "defn1"}
+{"meta": {"word1": "allude", "word2": "specify"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word1": "split", "word2": "divide"}, "type": "syn", "template_id": "syn1"}
+{"meta": {"word": "calx", "definition": "The substance which remains when a metal or mineral has been subjected to calcination or combustion by heat"}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word1": "parody", "word2": "mimicry"}, "type": "syn", "template_id": "syn1"}
+{"meta": {"word1": "evidence", "word2": "proof"}, "type": "syn", "template_id": "syn1"}
+{"meta": {"word1": "mortal", "word2": "immortal"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word1": "chap", "word2": "pal"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word": "purple", "definition": "A cardinalate. See Cardinal."}, "type": "defn", "template_id": "defn1"}
+{"meta": {"word": "celebrity", "sentence": "celebrity arrives by car for the wedding ."}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word1": "tow", "word2": "towed"}, "type": "hom", "template_id": "hom1"}
+{"meta": {"word1": "arboreal", "word2": "treelike"}, "type": "syn", "template_id": "syn1"}
+{"meta": {"word1": "disc", "word2": "discrete"}, "type": "hom", "template_id": "hom1"}
+{"meta": {"word1": "tomato", "word2": "fruit"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word1": "modal", "word2": "mental"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word1": "inscribe", "word2": "dodge"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word1": "nationality", "word2": "universality"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word1": "pontificate", "word2": "hush"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word": "sleekness", "definition": "The quality or state of being sleek"}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word1": "wheel", "word2": "wheeled"}, "type": "hom", "template_id": "hom1"}
+{"meta": {"word1": "rationale", "word2": "excuse"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word": "splash", "sentence": "adding a splash of colour ."}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word1": "awaken", "word2": "arise"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word": "sea", "sentence": "divers entering the sea from the boat"}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word1": "constrict", "word2": "unbind"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word1": "corrupt", "word2": "dirty"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word1": "choir", "word2": "choler"}, "type": "hom", "template_id": "hom2"}
+{"meta": {"word1": "accustom", "word2": "get"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word": "offspring", "sentence": "species a group of organisms that can interbreed in nature and produce fertile offspring"}, "type": "sent", "template_id": "sent1"}
+{"meta": {"word1": "split", "word2": "divide"}, "type": "syn", "template_id": "syn1"}
+{"meta": {"word": "match", "sentence": "the mascot throws sweets into the crowd with match ."}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word": "cordon", "definition": "The cord worn by a Franciscan friar."}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word1": "bill", "word2": "pay"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word1": "provident", "word2": "cautious"}, "type": "syn", "template_id": "syn1"}
+{"meta": {"word1": "slam", "word2": "set"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word": "road", "sentence": "scientists participating in park along a road to observe a storm"}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word1": "redirect", "word2": "mislead"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word": "disease", "definition": "An alteration in the state of the body or of some of its organs"}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word": "heart", "sentence": "a memorial tablet marks the place where heart is kept in church"}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word1": "audition", "word2": "trail"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word": "ceremony", "sentence": "soldiers fire a mm howitzer during the inauguration ceremony for politician ."}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word": "drachma", "definition": "A gold and silver coin of modern Greece worth 19.3 cents."}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word1": "stone", "word2": "sand"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word1": "accessibility", "word2": "hindrance"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word": "home", "sentence": "girl comforting her crying friend on the couch at home in living room"}, "type": "sent", "template_id": "sent1"}
+{"meta": {"word1": "determined", "word2": "positive"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word": "tussock", "definition": "Same as Tussock grass"}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word1": "power", "word2": "overwhelm"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word1": "completeness", "word2": "incompleteness"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word": "flear", "definition": "A grin of civility"}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word1": "clam", "word2": "open"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word": "organographist", "definition": "One versed in organography."}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word": "illuminate", "sentence": "fireworks illuminate the sky over gothic structure to celebrate person"}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word": "indignity", "definition": "Any action toward another which manifests contempt for him"}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word1": "progressive", "word2": "regressive"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word": "art", "sentence": "cover art by comic book creator ."}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word1": "gross", "word2": "net"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word1": "ring", "word2": "wring"}, "type": "hom", "template_id": "hom0"}
+{"meta": {"word1": "racquet", "word2": "rack"}, "type": "hom", "template_id": "hom2"}
+{"meta": {"word1": "ink", "word2": "fire"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word": "thumbnail", "sentence": "automobile make to kill the roadster new version coming in thumbnail"}, "type": "sent", "template_id": "sent1"}
+{"meta": {"word1": "mock", "word2": "dock"}, "type": "hom", "template_id": "hom1"}
+{"meta": {"word": "chapeau", "definition": "A hat or covering for the head."}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word1": "provident", "word2": "improvident"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word1": "manual", "word2": "automatic"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word": "cloth", "definition": "The distinctive dress of any profession"}, "type": "defn", "template_id": "defn1"}
+{"meta": {"word": "lithotripsy", "definition": "The operation of crushing a stone in the bladder with an instrument called lithotriptor or lithotrite"}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word1": "leaflet", "word2": "flyer"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word1": "encore", "word2": "curtain-call"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word1": "symbolism", "word2": "icon"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word1": "cole", "word2": "mineral"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word1": "zone", "word2": "space"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word": "boat", "sentence": "a boat leaving the marina ."}, "type": "sent", "template_id": "sent1"}
+{"meta": {"word1": "gaze", "word2": "graze"}, "type": "hom", "template_id": "hom0"}
+{"meta": {"word1": "graze", "word2": "raze"}, "type": "hom", "template_id": "hom2"}
+{"meta": {"word": "accent", "definition": "A mark placed at the right hand of a letter"}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word1": "intercourse", "word2": "suppression"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word1": "screech", "word2": "listen"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word1": "normative", "word2": "standard"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word1": "leaflet", "word2": "advertisement"}, "type": "syn", "template_id": "syn1"}
+{"meta": {"word1": "bop", "word2": "punch"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word": "grass", "sentence": "a windmill rises above tall grass"}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word": "plane", "sentence": "a plane that just landed on the runway"}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word1": "resistors", "word2": "resisters"}, "type": "hom", "template_id": "hom2"}
+{"meta": {"word1": "weightless", "word2": "airy"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word1": "disciplinary", "word2": "permissive"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word1": "thump", "word2": "thud"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word1": "completeness", "word2": "emptiness"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word1": "measurement", "word2": "amount"}, "type": "syn", "template_id": "syn1"}
+{"meta": {"word1": "oceanic", "word2": "aquatic"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word": "march", "definition": "Hence: Measured and regular advance or movement"}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word1": "rationale", "word2": "excuse"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word1": "park", "word2": "cuddle"}, "type": "syn", "template_id": "syn1"}
+{"meta": {"word1": "contaminate", "word2": "ruin"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word": "stag", "definition": "An outside irregular dealer in stocks"}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word": "chiton", "definition": "An under garment among the ancient Greeks"}, "type": "defn", "template_id": "defn1"}
+{"meta": {"word1": "poetic", "word2": "lyrical"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word": "hurst", "definition": "A wood or grove"}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word1": "measurement", "word2": "gauge"}, "type": "syn", "template_id": "syn1"}
+{"meta": {"word1": "left", "word2": "abandoned"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word1": "whisk", "word2": "solidify"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word": "balcony", "sentence": "the bedroom has access to a balcony overlooking communal garden ."}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word": "mystery", "sentence": "art evokes the mystery without which the world would not exist ."}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word": "herisson", "definition": "A beam or bar armed with iron spikes"}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word1": "recoverable", "word2": "reparable"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word1": "stone", "word2": "crystal"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word": "trunk", "definition": "The body of an animal"}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word1": "intoxicate", "word2": "stimulate"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word1": "probable", "word2": "likely"}, "type": "syn", "template_id": "syn1"}
+{"meta": {"word1": "bailee", "word2": "bailed"}, "type": "hom", "template_id": "hom2"}
+{"meta": {"word1": "cemetery", "word2": "church"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word": "mountain", "sentence": "the mountain rises out of the clouds on a cold morning"}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word1": "citation", "word2": "censure"}, "type": "syn", "template_id": "syn1"}
+{"meta": {"word1": "contaminate", "word2": "poison"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word1": "vague", "word2": "exact"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word1": "unrefined", "word2": "regal"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word1": "ink", "word2": "fire"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word1": "dimensional", "word2": "spherical"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word": "head", "sentence": "simply lit portrait of a young lady for a head shot by copyright"}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word": "hellene", "definition": "A native of either ancient or modern Greece"}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word": "tent", "sentence": "family having fun in the tent"}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word": "undertone", "definition": "A low or subdued tone or utterance"}, "type": "defn", "template_id": "defn1"}
+{"meta": {"word1": "contradiction", "word2": "agreement"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word": "forest", "sentence": "a prescribed burn of forest"}, "type": "sent", "template_id": "sent1"}
+{"meta": {"word": "access", "sentence": "one of lofts includes access to a small storage room"}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word": "needer", "definition": "One who needs anything."}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word1": "modal", "word2": "mental"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word": "summer", "sentence": "A group gathers at the lake on the first day of summer"}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word": "residentiaryship", "definition": "The office or condition of a residentiary."}, "type": "defn", "template_id": "defn1"}
+{"meta": {"word1": "manual", "word2": "mechanical"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word": "meadow", "sentence": "ewe with lamb jumping on a green meadow next to the herd"}, "type": "sent", "template_id": "sent1"}
+{"meta": {"word": "portrait", "sentence": "portrait of parents with their daughters on the bed"}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word1": "whisper", "word2": "shout"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word1": "inconsolable", "word2": "devastated"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word1": "disciplinary", "word2": "exculpatory"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word1": "write", "word2": "rite"}, "type": "hom", "template_id": "hom1"}
+{"meta": {"word1": "kiwi", "word2": "fruit"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word1": "allude", "word2": "declare"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word": "bacon", "sentence": "this bacon wrapped meatloaf should rest before carving ."}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word1": "linguistic", "word2": "unspoken"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word": "malma", "definition": "A spotted trout (Salvelinus malma)"}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word1": "recreation", "word2": "business"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word": "ledge", "sentence": "A cat lying on a ledge with empty pots behind it."}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word": "vehemence", "definition": "The quality pr state of being vehement"}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word": "harbor", "sentence": "these boat in harbor at city"}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word1": "shield", "word2": "cover"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word1": "nays", "word2": "bays"}, "type": "hom", "template_id": "hom0"}
+{"meta": {"word1": "accustom", "word2": "differ"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word1": "contradiction", "word2": "congruence"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word1": "linguistic", "word2": "mute"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word1": "slue", "word2": "slew"}, "type": "hom", "template_id": "hom2"}
+{"meta": {"word1": "progressive", "word2": "backward"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word1": "vague", "word2": "murky"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word": "recess", "definition": "A decree of the imperial diet of the old German empire."}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word1": "censor", "word2": "censer"}, "type": "hom", "template_id": "hom2"}
+{"meta": {"word1": "high", "word2": "heigh"}, "type": "hom", "template_id": "hom2"}
+{"meta": {"word": "post", "definition": "The doorpost of a victualer's shop or inn"}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word": "summer", "sentence": "wooden bridge on the bank of a pond in a city park in summer"}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word": "ache", "definition": "A name given to several species of plants"}, "type": "defn", "template_id": "defn1"}
+{"meta": {"word1": "edit", "word2": "expand"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word": "walk", "sentence": "Elephants walk through grassland under a stormy sky."}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word1": "export", "word2": "import"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word1": "thump", "word2": "smack"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word": "illocality", "definition": "Want of locality or place."}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word": "storm", "sentence": "the sky is grey clouds before a storm"}, "type": "sent", "template_id": "sent1"}
+{"meta": {"word1": "maid", "word2": "mail"}, "type": "hom", "template_id": "hom2"}
+{"meta": {"word": "sky", "sentence": "many hands connecting for help in a spiral under a sky"}, "type": "sent", "template_id": "sent1"}
+{"meta": {"word": "field", "sentence": "walkers at field of study on the top on a bright winter day"}, "type": "sent", "template_id": "sent1"}
+{"meta": {"word1": "representative", "word2": "atypical"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word1": "rude", "word2": "crude"}, "type": "hom", "template_id": "hom1"}
+{"meta": {"word": "pyrene", "definition": "One of the less volatile hydrocarbons of coal tar"}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word1": "sandstorm", "word2": "clearness"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word1": "halter", "word2": "bottom"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word1": "confer", "word2": "retrieve"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word1": "stockade", "word2": "jail"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word1": "symbolism", "word2": "abstraction"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word1": "mystical", "word2": "predictable"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word": "vedantist", "definition": "One versed in the doctrines of the Vedantas."}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word1": "pardon", "word2": "exonerate"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word": "couple", "sentence": "young couple in restaurant stuck in their phones and ignore each other"}, "type": "sent", "template_id": "sent1"}
+{"meta": {"word1": "carpal", "word2": "carpel"}, "type": "hom", "template_id": "hom0"}
+{"meta": {"word": "author", "sentence": "the author makes a friend on the way to the summit ."}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word1": "sunday", "word2": "sunny"}, "type": "hom", "template_id": "hom0"}
+{"meta": {"word": "acatalectic", "definition": "A verse which has the complete number of feet and syllables."}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word1": "savor", "word2": "sear"}, "type": "hom", "template_id": "hom1"}
+{"meta": {"word1": "unstructured", "word2": "rigid"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word1": "corrupt", "word2": "purify"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word1": "colonel", "word2": "cole"}, "type": "hom", "template_id": "hom0"}
+{"meta": {"word": "heron", "sentence": "dark grey heron perched on a branch overlooking the lagoon"}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word1": "educator", "word2": "clown"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word": "onomatologist", "definition": "One versed in the history of names."}, "type": "defn", "template_id": "defn1"}
+{"meta": {"word": "epigaea", "definition": "An American genus of plants"}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word1": "beaut", "word2": "beat"}, "type": "hom", "template_id": "hom0"}
+{"meta": {"word": "market", "sentence": "a city is a major market in the district ."}, "type": "sent", "template_id": "sent1"}
+{"meta": {"word1": "sax", "word2": "lax"}, "type": "hom", "template_id": "hom1"}
+{"meta": {"word1": "whisk", "word2": "smooth"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word1": "mettle", "word2": "metal"}, "type": "hom", "template_id": "hom0"}
+{"meta": {"word": "structure", "sentence": "medieval structure seen from the beach at the northern side"}, "type": "sent", "template_id": "sent1"}
+{"meta": {"word": "text", "sentence": "image titled remove text from a photo in step"}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word1": "distribution", "word2": "consolidation"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word": "saic", "definition": "A kind of ketch very common in the Levant"}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word1": "pie", "word2": "pi"}, "type": "hom", "template_id": "hom1"}
+{"meta": {"word1": "unstructured", "word2": "organized"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word1": "seer", "word2": "sewer"}, "type": "hom", "template_id": "hom0"}
+{"meta": {"word": "time", "sentence": "falling in love for the first time"}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word": "place", "sentence": "monks passing a yak at type of place of worship ."}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word1": "browse", "word2": "rows"}, "type": "hom", "template_id": "hom1"}
+{"meta": {"word1": "fancy", "word2": "admire"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word": "way", "sentence": "A train makes its way down the tracks."}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word1": "pneumatic", "word2": "mechanical"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word1": "goodbye", "word2": "departure"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word1": "skunk", "word2": "swan"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word": "marginate", "definition": "Having a margin distinct in appearance or structure."}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word": "morning", "sentence": "clouds dissipate and mist rises from the forest in the northern mountains after an early morning"}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word1": "diagnose", "word2": "cure"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word": "match", "sentence": "coach of the team during the training before match"}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word": "distance", "definition": "A space marked out in the last part of a race course."}, "type": "defn", "template_id": "defn1"}
+{"meta": {"word1": "tabulate", "word2": "tally"}, "type": "syn", "template_id": "syn1"}
+{"meta": {"word1": "wrapped", "word2": "wrap"}, "type": "hom", "template_id": "hom2"}
+{"meta": {"word": "edulcorator", "definition": "A contrivance used to supply small quantities of sweetened liquid"}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word": "trail", "sentence": "a wooden trail through the middle of a forest"}, "type": "sent", "template_id": "sent1"}
+{"meta": {"word1": "constrict", "word2": "liberate"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word1": "contaminate", "word2": "sterilize"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word1": "geologic", "word2": "bible"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word1": "canter", "word2": "cant"}, "type": "hom", "template_id": "hom0"}
+{"meta": {"word": "mugget", "definition": "The small entrails of a calf or a hog."}, "type": "defn", "template_id": "defn1"}
+{"meta": {"word1": "philosophical", "word2": "dumb"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word1": "alert", "word2": "notify"}, "type": "syn", "template_id": "syn1"}
+{"meta": {"word1": "skyline", "word2": "ground"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word1": "inscribe", "word2": "orate"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word": "pestle", "sentence": "a young pharmacist using mortar and pestle for preparing medicine in the laboratory ."}, "type": "sent", "template_id": "sent1"}
+{"meta": {"word": "battery", "sentence": "turn the laptop over to where the battery is facing upwards and towards you ."}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word1": "alleviation", "word2": "comfort"}, "type": "syn", "template_id": "syn1"}
+{"meta": {"word1": "rood", "word2": "brood"}, "type": "hom", "template_id": "hom1"}
+{"meta": {"word": "cross", "sentence": "cross with sun rising behind it over a mountain range ."}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word": "sacrifice", "definition": "The offering of anything to God"}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word1": "manor", "word2": "manner"}, "type": "hom", "template_id": "hom1"}
+{"meta": {"word": "bee", "sentence": "butterfly a bee on flower"}, "type": "sent", "template_id": "sent1"}
+{"meta": {"word": "bedroom", "sentence": "love this master bedroom with its hints of silver and gold ."}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word": "mammonite", "definition": "One devoted to the acquisition of wealth or the service of Mammon."}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word1": "inconsolable", "word2": "calm"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word1": "arm", "word2": "protect"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word": "grass", "sentence": "The horse has quite a bit of grass to eat."}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word1": "assertion", "word2": "query"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word1": "slay", "word2": "sashay"}, "type": "hom", "template_id": "hom1"}
+{"meta": {"word": "tide", "sentence": "the causeway with the tide coming in"}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word": "commander", "sentence": "a statue was made in honor of military commander ."}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word1": "fancy", "word2": "admire"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word1": "skunk", "word2": "animal"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word1": "ruff", "word2": "tuff"}, "type": "hom", "template_id": "hom0"}
+{"meta": {"word": "zoon", "definition": "An animal which is the sole product of a single egg"}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word1": "pastor", "word2": "preacher"}, "type": "syn", "template_id": "syn1"}
+{"meta": {"word": "competition", "sentence": "runners cross tower bridge during recurring competition"}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word1": "pocket", "word2": "swipe"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word1": "education", "word2": "training"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word1": "intoxicate", "word2": "dull"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word1": "encore", "word2": "applause"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word": "schoolboy", "definition": "A boy belonging to"}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word": "rocket", "sentence": "satellite and rocket in the space"}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word": "structure", "sentence": "structure uses coal to produce electricity ."}, "type": "sent", "template_id": "sent1"}
+{"meta": {"word1": "mane", "word2": "made"}, "type": "hom", "template_id": "hom0"}
+{"meta": {"word1": "sensory", "word2": "unfeeling"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word1": "offal", "word2": "oracle"}, "type": "hom", "template_id": "hom0"}
+{"meta": {"word1": "boll", "word2": "bold"}, "type": "hom", "template_id": "hom2"}
+{"meta": {"word1": "unnoticed", "word2": "noticed"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word1": "preys", "word2": "prays"}, "type": "hom", "template_id": "hom1"}
+{"meta": {"word": "trash", "sentence": "marine debris including trash and plastics washed up along the shore"}, "type": "sent", "template_id": "sent0"}

@@ -1,0 +1,100 @@
+{"meta": {"word1": "brooch", "word2": "brood"}, "type": "hom", "template_id": "hom0"}
+{"meta": {"word": "rectangle", "definition": "A four-sided figure having only right angles"}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word1": "aid", "word2": "maid"}, "type": "hom", "template_id": "hom0"}
+{"meta": {"word": "field", "sentence": "a large wind turbine in a field produces electricity"}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word1": "caffeine", "word2": "ingredient"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word1": "measurement", "word2": "calibration"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word": "pause", "definition": "In writing and printing"}, "type": "defn", "template_id": "defn1"}
+{"meta": {"word1": "slow", "word2": "low"}, "type": "hom", "template_id": "hom1"}
+{"meta": {"word1": "tomato", "word2": "tomato-plant"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word1": "son", "word2": "so"}, "type": "hom", "template_id": "hom2"}
+{"meta": {"word": "sandwich", "sentence": "Toasted sandwich with tomato, lettuce, cheese, and chips."}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word": "lavender", "sentence": "lavender for sale at the market"}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word": "harbour", "sentence": "tall ship tied up in harbour"}, "type": "sent", "template_id": "sent1"}
+{"meta": {"word": "sprightliness", "definition": "The quality or state of being sprightly"}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word": "wasp", "sentence": "big wasp starting to build a nest under a palm leaf"}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word1": "geologic", "word2": "biologic"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word": "tossing", "definition": "A process which consists in washing ores by violent agitation in water"}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word1": "foist", "word2": "ignore"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word1": "mantle", "word2": "cape"}, "type": "syn", "template_id": "syn1"}
+{"meta": {"word1": "spring", "word2": "rest"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word1": "confer", "word2": "retrieve"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word1": "ours", "word2": "hours"}, "type": "hom", "template_id": "hom1"}
+{"meta": {"word": "relievement", "definition": "The act of relieving"}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word1": "unfavorable", "word2": "adverse"}, "type": "syn", "template_id": "syn1"}
+{"meta": {"word1": "despotic", "word2": "oppressive"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word1": "recreation", "word2": "play"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word1": "groove", "word2": "stand"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word1": "left", "word2": "liberal"}, "type": "syn", "template_id": "syn1"}
+{"meta": {"word": "cat", "sentence": "portrait of the face and green eyes of a furry grey and white cat"}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word": "consumption", "sentence": "consumption of fruits can lower the risk of breast cancer ."}, "type": "sent", "template_id": "sent1"}
+{"meta": {"word1": "intercourse", "word2": "isolation"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word": "explode", "sentence": "fireworks explode over church as people celebrate the new year"}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word": "exposition", "definition": "Situation or position with reference to direction of view or accessibility to influence of sun"}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word": "wind", "sentence": "palm tree swaying in the wind of a storm coming from the mountains"}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word1": "wether", "word2": "whether"}, "type": "hom", "template_id": "hom1"}
+{"meta": {"word1": "gross", "word2": "total"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word1": "wield", "word2": "weld"}, "type": "hom", "template_id": "hom0"}
+{"meta": {"word1": "hedge", "word2": "wager"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word": "rotation", "definition": "Any return or succesion in a series."}, "type": "defn", "template_id": "defn1"}
+{"meta": {"word1": "instructive", "word2": "destructive"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word1": "tear", "word2": "team"}, "type": "hom", "template_id": "hom1"}
+{"meta": {"word": "bellyband", "definition": "A band that passes under the belly of a horse and holds the saddle or harness in place"}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word1": "auntie", "word2": "aunt"}, "type": "hom", "template_id": "hom0"}
+{"meta": {"word1": "rivalry", "word2": "cooperation"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word1": "arrive", "word2": "come"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word": "cope", "definition": "An ecclesiastical vestment or cloak"}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word1": "progressive", "word2": "innovative"}, "type": "syn", "template_id": "syn1"}
+{"meta": {"word1": "inscribe", "word2": "dedicate"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word1": "organise", "word2": "clutter"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word": "mountain", "sentence": "loch and a munro mountain on a winters day"}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word": "xanthophane", "definition": "The yellow pigment present in the inner segments of the retina in animals. See Chromophane."}, "type": "defn", "template_id": "defn1"}
+{"meta": {"word1": "sink", "word2": "ink"}, "type": "hom", "template_id": "hom0"}
+{"meta": {"word": "baggala", "definition": "A two-masted Arab or Indian trading vessel"}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word": "bedstaff", "definition": "\"A wooden pin stuck anciently on the sides of the bedstead"}, "type": "defn", "template_id": "defn1"}
+{"meta": {"word": "dog", "sentence": "beautiful dog with glasses and tie ."}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word": "counterplot", "definition": "A plot or artifice opposed to another."}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word1": "halter", "word2": "top"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word": "pashalic", "definition": "The jurisdiction of a pasha."}, "type": "defn", "template_id": "defn1"}
+{"meta": {"word": "politician", "sentence": "chancellor of politician holds his briefcase which contains the budget"}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word1": "pontificate", "word2": "withhold"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word": "stillroom", "definition": "A room for distilling."}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word": "sway", "sentence": "tropical sky where palm trees sway in the wind"}, "type": "sent", "template_id": "sent1"}
+{"meta": {"word1": "nose", "word2": "snoop"}, "type": "syn", "template_id": "syn1"}
+{"meta": {"word1": "accustom", "word2": "get"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word1": "determined", "word2": "lazy"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word": "coshering", "definition": "A feudal prerogative of the lord of the soil entitling him to lodging and food at his tenant's house."}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word": "filiation", "definition": "The relationship of a son or child to a parent"}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word1": "stout", "word2": "rich"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word1": "allude", "word2": "declare"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word1": "allude", "word2": "withhold"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word1": "gin", "word2": "coin"}, "type": "hom", "template_id": "hom0"}
+{"meta": {"word1": "intentional", "word2": "deliberate"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word1": "scribe", "word2": "scribble"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word": "armenian", "definition": "A native or one of the people of Armenia"}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word1": "shoo", "word2": "shoot"}, "type": "hom", "template_id": "hom1"}
+{"meta": {"word1": "rendezvous", "word2": "scattering"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word1": "gnus", "word2": "gnu"}, "type": "hom", "template_id": "hom2"}
+{"meta": {"word1": "unfavorable", "word2": "favorable"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word1": "preparedness", "word2": "disarray"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word1": "humble", "word2": "submissive"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word1": "goodbye", "word2": "departure"}, "type": "syn", "template_id": "syn1"}
+{"meta": {"word": "saltwort", "definition": "A name given to several plants which grow on the seashore"}, "type": "defn", "template_id": "defn1"}
+{"meta": {"word1": "chap", "word2": "boy"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word": "garden", "sentence": "front of villa and garden"}, "type": "sent", "template_id": "sent1"}
+{"meta": {"word1": "inns", "word2": "inn"}, "type": "hom", "template_id": "hom0"}
+{"meta": {"word": "estrapade", "definition": "The action of a horse"}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word": "look", "sentence": "players look dejected after the stunning loss"}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word1": "invalid", "word2": "erroneous"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word1": "commitment", "word2": "obligation"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word1": "corrupt", "word2": "spoil"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word1": "rationale", "word2": "ambiguity"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word1": "mantle", "word2": "cloak"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word1": "contaminate", "word2": "ruin"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word1": "presidents", "word2": "presents"}, "type": "hom", "template_id": "hom0"}
+{"meta": {"word": "cobweb", "definition": "A snare of insidious meshes designed to catch the ignorant and unwary."}, "type": "defn", "template_id": "defn1"}
+{"meta": {"word": "entermewer", "definition": "A hawk gradually changing the color of its feathers"}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word1": "furl", "word2": "wrap"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word": "match", "sentence": "athlete gives away his shirt to a fan after the final whistle during the match ."}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word": "front", "sentence": "front of villa and garden"}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word1": "encore", "word2": "opening"}, "type": "ant", "template_id": "ant1"}

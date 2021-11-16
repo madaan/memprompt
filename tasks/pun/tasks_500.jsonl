@@ -1,0 +1,10 @@
+{"meta": {"word1": "load", "word2": "loan"}, "type": "hom", "template_id": "hom2"}
+{"meta": {"word1": "awaken", "word2": "deaden"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word": "pound", "definition": "A certain specified weight"}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word": "mysticism", "definition": "The doctrine of the Mystics"}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word1": "elephant", "word2": "plant"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word1": "plain", "word2": "lain"}, "type": "hom", "template_id": "hom2"}
+{"meta": {"word1": "symbolic", "word2": "useless"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word1": "metropolitan", "word2": "urban"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word1": "tabulate", "word2": "randomize"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word1": "invalidate", "word2": "undermine"}, "type": "syn", "template_id": "syn2"}

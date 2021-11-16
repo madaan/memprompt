@@ -1,0 +1,100 @@
+{"meta": {"word1": "artist", "word2": "creator"}, "type": "syn", "template_id": "syn1"}
+{"meta": {"word": "limb", "definition": "The graduated margin of an arc or circle"}, "type": "defn", "template_id": "defn1"}
+{"meta": {"word": "crowd", "sentence": "monarch greets a crowd during a royal tour"}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word": "fog", "sentence": "a thick blanket of early morning fog partially shrouds the skyscrapers of the districts ."}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word": "premise", "definition": "Matters previously stated or set forth"}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word1": "lop", "word2": "secure"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word": "painting", "sentence": "The train has a painting on the side of it."}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word": "channel", "definition": "Flat ledges of heavy plank bolted edgewise to the outside of a vessel"}, "type": "defn", "template_id": "defn1"}
+{"meta": {"word1": "musician", "word2": "conductor"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word1": "instructive", "word2": "destructive"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word": "tymp", "definition": "A hollow water-cooled iron casting in the upper part of the archway in which the dam stands."}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word1": "appall", "word2": "encourage"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word1": "build", "word2": "guild"}, "type": "hom", "template_id": "hom2"}
+{"meta": {"word": "cafe", "sentence": "a small cafe on a cobbled street in the district"}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word1": "consist", "word2": "makeup"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word": "eavesdropper", "definition": "One who stands under the eaves"}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word1": "interpret", "word2": "translate"}, "type": "syn", "template_id": "syn1"}
+{"meta": {"word": "stream", "sentence": "flowing mountain stream nestled in a forest with fall foliage"}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word1": "stout", "word2": "thick"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word1": "ferrate", "word2": "feat"}, "type": "hom", "template_id": "hom1"}
+{"meta": {"word": "splenology", "definition": "The branch of science which treats of the spleen."}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word1": "metropolitan", "word2": "rural"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word": "electro-telegraphy", "definition": "The art or science of constructing or using the electric telegraph"}, "type": "defn", "template_id": "defn1"}
+{"meta": {"word1": "parody", "word2": "reality"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word": "engine", "sentence": "a fire engine responds to a call during a blizzard"}, "type": "sent", "template_id": "sent1"}
+{"meta": {"word": "type", "sentence": "type of place of worship was one of the most important buildings in the ancient town ."}, "type": "sent", "template_id": "sent1"}
+{"meta": {"word1": "sighs", "word2": "sights"}, "type": "hom", "template_id": "hom1"}
+{"meta": {"word1": "vain", "word2": "vane"}, "type": "hom", "template_id": "hom2"}
+{"meta": {"word": "forest", "sentence": "A train traveling through a forest filled with trees."}, "type": "sent", "template_id": "sent1"}
+{"meta": {"word1": "implicate", "word2": "exclude"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word": "calvary", "definition": "A representation of the crucifixion"}, "type": "defn", "template_id": "defn1"}
+{"meta": {"word": "look", "sentence": "how to style mom jeans into a trendy look"}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word1": "fancy", "word2": "believe"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word1": "bop", "word2": "smack"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word": "book", "sentence": "heart shaped tree growing on poetry book"}, "type": "sent", "template_id": "sent1"}
+{"meta": {"word1": "uplift", "word2": "depress"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word": "temporization", "definition": "The act of temporizing."}, "type": "defn", "template_id": "defn1"}
+{"meta": {"word": "book", "definition": "A part or subdivision of a treatise or literary work"}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word1": "strum", "word2": "finger"}, "type": "syn", "template_id": "syn1"}
+{"meta": {"word": "night", "sentence": "city driving time lapse to the airport at night ."}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word": "worship", "sentence": "a city which includes a temple or place of worship"}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word": "pantofle", "definition": "A slipper for the foot."}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word": "redstreak", "definition": "Cider pressed from redstreak apples."}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word1": "tabulate", "word2": "record"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word": "condensability", "definition": "Capability of being condensed."}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word1": "recreation", "word2": "play"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word1": "commitment", "word2": "ambiguity"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word": "secondo", "definition": "The second part in a concerted piece."}, "type": "defn", "template_id": "defn1"}
+{"meta": {"word": "toilet", "sentence": "A toilet occupies a space in a bathroom."}, "type": "sent", "template_id": "sent1"}
+{"meta": {"word1": "leek", "word2": "lees"}, "type": "hom", "template_id": "hom2"}
+{"meta": {"word1": "journey", "word2": "stay"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word1": "czech", "word2": "cache"}, "type": "hom", "template_id": "hom2"}
+{"meta": {"word1": "power", "word2": "function"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word1": "incite", "word2": "inc"}, "type": "hom", "template_id": "hom1"}
+{"meta": {"word": "blade", "definition": "The cutting part of an instrument"}, "type": "defn", "template_id": "defn1"}
+{"meta": {"word1": "unconfirmed", "word2": "unanswered"}, "type": "syn", "template_id": "syn1"}
+{"meta": {"word": "matronage", "definition": "The state of a matron."}, "type": "defn", "template_id": "defn1"}
+{"meta": {"word": "couch", "sentence": "friends drinking tea and chatting at a party at home on the couch"}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word1": "size", "word2": "seize"}, "type": "hom", "template_id": "hom1"}
+{"meta": {"word1": "inscribe", "word2": "carve"}, "type": "syn", "template_id": "syn1"}
+{"meta": {"word1": "manor", "word2": "manner"}, "type": "hom", "template_id": "hom1"}
+{"meta": {"word1": "fryer", "word2": "furr"}, "type": "hom", "template_id": "hom0"}
+{"meta": {"word1": "aught", "word2": "taught"}, "type": "hom", "template_id": "hom0"}
+{"meta": {"word": "site", "sentence": "the ruins are why the city is cultural site ."}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word1": "education", "word2": "instruction"}, "type": "syn", "template_id": "syn1"}
+{"meta": {"word": "pate", "definition": "The head of a person"}, "type": "defn", "template_id": "defn1"}
+{"meta": {"word1": "chap", "word2": "enemy"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word1": "compass", "word2": "chaos"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word": "unitarianism", "definition": "The doctrines of Unitarians."}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word": "jejunity", "definition": "The quality of being jejune"}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word1": "brays", "word2": "rays"}, "type": "hom", "template_id": "hom0"}
+{"meta": {"word1": "parody", "word2": "reality"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word1": "parody", "word2": "comic"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word1": "bulge", "word2": "swell"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word": "inning", "sentence": "pitcher delivers a pitch in the fourth inning of game"}, "type": "sent", "template_id": "sent1"}
+{"meta": {"word1": "per", "word2": "perl"}, "type": "hom", "template_id": "hom1"}
+{"meta": {"word1": "unfavorable", "word2": "unsuited"}, "type": "syn", "template_id": "syn1"}
+{"meta": {"word": "forcemeat", "definition": "Meat chopped fine and highly seasoned"}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word1": "deteriorate", "word2": "improve"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word1": "cameraman", "word2": "playwright"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word1": "timbre", "word2": "timber"}, "type": "hom", "template_id": "hom1"}
+{"meta": {"word": "cake", "sentence": "A cat standing by a cake and a white plate."}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word": "indulgence", "definition": "The act of indulging or humoring"}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word1": "groove", "word2": "indentation"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word1": "workforce", "word2": "individual"}, "type": "ant", "template_id": "ant2"}
+{"meta": {"word1": "terminal", "word2": "fatal"}, "type": "syn", "template_id": "syn0"}
+{"meta": {"word": "train", "sentence": "A train moving on a bridge over the mountains."}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word": "repair", "sentence": "no need to repair the bridge after the war just put up a temporary repair permanently ."}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word": "interlocation", "definition": "A placing or coming between"}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word1": "rapped", "word2": "graphed"}, "type": "hom", "template_id": "hom2"}
+{"meta": {"word": "mess", "definition": "The milk given by a cow at one milking."}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word1": "completeness", "word2": "wholeness"}, "type": "syn", "template_id": "syn1"}
+{"meta": {"word": "herd", "sentence": "a herd of sheep on meadow"}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word": "balance", "definition": "Act of weighing mentally"}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word": "watch", "sentence": "supporters watch the match from a hill outside the stadium"}, "type": "sent", "template_id": "sent1"}
+{"meta": {"word1": "psi", "word2": "piste"}, "type": "hom", "template_id": "hom2"}
+{"meta": {"word1": "mince", "word2": "miner"}, "type": "hom", "template_id": "hom2"}
+{"meta": {"word": "view", "sentence": "a view of sky from airplane. above clouds"}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word1": "strait", "word2": "straight"}, "type": "hom", "template_id": "hom1"}
+{"meta": {"word": "bidale", "definition": "An invitation of friends to drink ale at some poor man's house"}, "type": "defn", "template_id": "defn2"}

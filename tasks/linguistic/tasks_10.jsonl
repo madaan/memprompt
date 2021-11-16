@@ -1,0 +1,10 @@
+{"meta": {"word1": "capital", "word2": "capitol"}, "type": "hom", "template_id": "hom2"}
+{"meta": {"word": "house", "sentence": "a new extension for the kitchen and breakfast room faithfully echoes the existing large country house"}, "type": "sent", "template_id": "sent1"}
+{"meta": {"word1": "berry", "word2": "err"}, "type": "hom", "template_id": "hom2"}
+{"meta": {"word": "remittor", "definition": "One who makes a remittance"}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word1": "untypical", "word2": "common"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word": "grass", "sentence": "wildflowers and grass grow on the meadow ."}, "type": "sent", "template_id": "sent1"}
+{"meta": {"word1": "sonny", "word2": "sunny"}, "type": "hom", "template_id": "hom2"}
+{"meta": {"word": "harbour", "sentence": "a city and harbour on the south coast"}, "type": "sent", "template_id": "sent1"}
+{"meta": {"word": "patrol", "sentence": "a soldier provides security as soldiers patrol through a village in province ."}, "type": "sent", "template_id": "sent1"}
+{"meta": {"word": "inroad", "definition": "The entrance of an enemy into a country with purposes of hostility"}, "type": "defn", "template_id": "defn2"}

@@ -1,0 +1,10 @@
+{"meta": {"word1": "foot", "word2": "extremity"}, "type": "syn", "template_id": "syn2"}
+{"meta": {"word": "curvet", "definition": "A particular leap of a horse"}, "type": "defn", "template_id": "defn0"}
+{"meta": {"word1": "contaminate", "word2": "taint"}, "type": "syn", "template_id": "syn1"}
+{"meta": {"word": "add", "sentence": "add some life with different pillows"}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word": "sky", "sentence": "girls jump on the meadow against blue summer sky"}, "type": "sent", "template_id": "sent0"}
+{"meta": {"word": "home", "sentence": "flames rise as a home is consumed by a wildfire ."}, "type": "sent", "template_id": "sent2"}
+{"meta": {"word1": "fight", "word2": "surrender"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word1": "vial", "word2": "viol"}, "type": "hom", "template_id": "hom0"}
+{"meta": {"word1": "furl", "word2": "open"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word1": "commitment", "word2": "infidelity"}, "type": "ant", "template_id": "ant0"}
