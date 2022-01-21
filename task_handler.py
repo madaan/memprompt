@@ -3,9 +3,13 @@ import json
 import pandas as pd
 import random
 from collections import Counter
+from typing import List
+
 
 from memprompt.templates import templates
+from memprompt.templates_gpt3_wordtasks import templates_gpt3_wordtasks
 
+templates.update(templates_gpt3_wordtasks)
 
 logging.basicConfig(level=logging.INFO)
 
@@ -13,39 +17,45 @@ logging.basicConfig(level=logging.INFO)
 class TaskHandler(object):
     ### randomly returns a task
     def __init__(
-        self,
-        template_class,
-        load_raw_data: bool = False,
-        task_types = ["syn", "ant", "hom", "defn", "sent"],
-        wordnet_raw_data_path: str = "data/wordnet/raw.jsonl",
-        commongen_raw_data_path: str = "data/commongen/raw.jsonl",
-        defn_raw_data_path: str = "data/defn/raw.jsonl",
+        self, template_class, task_files: List = None, load_raw_data: bool = False,
     ):
-        self.task_types = task_types
         if load_raw_data:
-            self.wordnet_tasks = pd.read_json(wordnet_raw_data_path, orient="records", lines=True)
-            self.commongen_tasks = pd.read_json(
-                commongen_raw_data_path, orient="records", lines=True
-            )
-            self.defn_tasks = pd.read_json(defn_raw_data_path, orient="records", lines=True)
-            # concatenate all of them
-            self.tasks = pd.concat([self.wordnet_tasks, self.commongen_tasks, self.defn_tasks])
+            raw_datasets = []
+            for task_file in task_files:
+                raw_datasets.append(pd.read_json(task_file, lines=True, orient="records"))
+            self.tasks = pd.concat(raw_datasets)
             self.tasks = self.tasks.sample(frac=1)
-
+            task_types = list(self.tasks["type"].unique())
+            logging.info(f"Loaded {len(self.tasks)} tasks {task_types}")
             # make a hashmap from task type to task data
             self.task_map = {}
-            for task_type in self.task_types:
+            for task_type in task_types:
                 self.task_map[task_type] = self.tasks[self.tasks["type"] == task_type]
+        self.word_level_tasks = set(
+            ["syn", "ant", "hom", "cyc", "anag1", "anag2", "rev", "randsym"]
+        )
 
         self.templates = templates[template_class]
-
-        logging.info("Loaded {} tasks".format(len(self.task_types)))
+        self.task_types = list(set([template["type"] for template in self.templates]))
 
         # make a hashmap from task type to list of template ids
         self.task_type_to_template_ids = {task_type: [] for task_type in self.task_types}
         for template in self.templates:
-            if template["type"] in self.task_type_to_template_ids:
-                self.task_type_to_template_ids[template["type"]].append(template["template_id"])
+            """
+            Each template in the template list has the following form:
+                {
+                "type": "cyc",
+                "template_id": "cyc0",
+                "question": lambda word1: f"Find the right word given this cycled word: < {word1} > ?",
+                "clarification": "clarification: when I want you to fix cycled word, I mean cycled.",
+                "answer": lambda word1, word2: f"the uncycled version of {word1} is {word2}",
+                },
+            """
+            task_type = template["type"]
+            template_id = template["template_id"]
+            self.task_type_to_template_ids[task_type].append(template_id)
+
+        logging.info(self.task_type_to_template_ids)
 
         # make a hashmap from template id to template
         self.template_id_to_template_map = {}
@@ -90,16 +100,29 @@ class TaskHandler(object):
         template = random.choice(self.template_map[task_type])
         return template
 
+    def prepare_task(self, task, template):
+        if template["type"] in self.word_level_tasks:
+            return self.prepare_word_task(task, template)
+        elif task["type"] == "defn":
+            return self.prepare_defn(task, template)
+        elif task["type"] == "sent":
+            return self.prepare_sent(task, template)
+        else:
+            raise ValueError("Unknown task type")
+
     def prepare_syn(self, task, template):
-        word1, word2 = task["meta"]["word1"], task["meta"]["word2"]
-        question = template["question"](word1)
-        answer = template["answer"](word1, word2)
-        return question, answer
+        return self.prepare_word_task(task, template)
 
     def prepare_ant(self, task, template):
+        return self.prepare_word_task(task, template)
+
+    def prepare_hom(self, task, template):
+        return self.prepare_word_task(task, template)
+
+    def prepare_word_task(self, task, template):
         word1, word2 = task["meta"]["word1"], task["meta"]["word2"]
-        question = template["question"](word1)
-        answer = template["answer"](word1, word2)
+        question = template["question"](word1)  # generate question using the template lambda
+        answer = template["answer"](word1, word2)  # generate answer using the template lambda
         return question, answer
 
     def prepare_defn(self, task, template):
@@ -117,25 +140,12 @@ class TaskHandler(object):
         answer = template["answer"](word, sentence)
         return question, answer
 
-    def prepare_hom(self, task, template):
-        word1, word2 = task["meta"]["word1"], task["meta"]["word2"]
-        question = template["question"](word1)
-        answer = template["answer"](word1, word2)
-        return question, answer
-
-    def prepare_task(self, task, template):
-        if task["type"] == "syn":
-            return self.prepare_syn(task, template)
-        elif task["type"] == "ant":
-            return self.prepare_ant(task, template)
-        elif task["type"] == "defn":
-            return self.prepare_defn(task, template)
-        elif task["type"] == "sent":
-            return self.prepare_sent(task, template)
-        elif task["type"] == "hom":
-            return self.prepare_hom(task, template)
-        else:
-            raise ValueError("Unknown task type")
+    def check_answer(self, answer, task):
+        check_name = f"check_{task['type']}_answer"
+        try:
+            return getattr(self, check_name)(answer)
+        except:
+            raise ValueError(f"Unknown task type: {task['type']}")
 
     def check_syn_answer(self, answer):
         return "synonym" in answer
@@ -152,26 +162,27 @@ class TaskHandler(object):
     def check_hom_answer(self, answer):
         return "homonym" in answer
 
-    def check_answer(self, answer, task):
-        if task["type"] == "syn":
-            return self.check_syn_answer(answer)
-        elif task["type"] == "ant":
-            return self.check_ant_answer(answer)
-        elif task["type"] == "defn":
-            return self.check_defn_answer(answer)
-        elif task["type"] == "sent":
-            return self.check_sent_answer(answer)
-        elif task["type"] == "hom":
-            return self.check_hom_answer(answer)
-        else:
-            raise ValueError("Unknown task type")
+    def check_cyc_answer(self, answer):
+        return "uncycled version" in answer
+
+    def check_anag1_answer(self, answer):
+        return "anagram 1" in answer
+
+    def check_anag2_answer(self, answer):
+        return "anagram 2" in answer
+
+    def check_rev_answer(self, answer):
+        return "after reversing" in answer
+
+    def check_randsym_answer(self, answer):
+        return "word after removing symbols" in answer
 
 
-def dump_tasks(n, template_class, task_types):
-    if template_class not in ["linguistic", "hin", "pun"]:
-        raise ValueError("Unknown template class, must be linguistic, hin, or pun")
+def dump_tasks(n, template_class, task_files):
+    if template_class not in ["linguistic", "hin", "pun", "synthetic_gpt3"]:
+        raise ValueError(f"Unknown template class, must be in {template_class}")
 
-    task_stream = TaskHandler(template_class, task_types=task_types, load_raw_data=True)
+    task_stream = TaskHandler(template_class, load_raw_data=True, task_files=task_files)
 
     tasks = task_stream.create_tasks(n)
     # distribution of task types
@@ -181,9 +192,8 @@ def dump_tasks(n, template_class, task_types):
     # write to a file
     pathlib.Path(f"tasks/{template_class}").mkdir(parents=True, exist_ok=True)
     # is the input different from the standard task types?
-    tasks_meta = "tasks" if set(task_types).difference(set(DEFAULT_TASK_TYPES)) == 0  else f"tasks_{','.join(task_types)}"
-    out_fp = f"tasks/{template_class}/{tasks_meta}_{n}.jsonl"
-    with open(out_fp, "w") as f:
+
+    with open(f"tasks/{template_class}/tasks_{n}.jsonl", "w") as f:
         for task in tasks:
             f.write(json.dumps(task) + "\n")
 
@@ -216,21 +226,21 @@ if __name__ == "__main__":
     import sys
     import pathlib
     import argparse
-    DEFAULT_TASK_TYPES = ["syn", "ant" , "hom", "defn", "sent"]
+
     args = argparse.ArgumentParser()
-    args.add_argument("--template_class", type=str, default="linguistic")
+    args.add_argument("--template_class", type=str)
     args.add_argument("--n", type=int, default=100)
-    args.add_argument("--task_types", type=str, default=",".join(DEFAULT_TASK_TYPES))
+    args.add_argument("--task_types", type=str)
     args.add_argument("--outpath", type=str, default="data/tasks.jsonl")
-    args.add_argument("--wordnet_raw_data_path", type=str, default="data/wordnet_raw_data.jsonl")
-    args.add_argument("--commongen_raw_data_path", type=str, default="data/commongen_raw_data.jsonl")
-    args.add_argument("--defn_raw_data_path", type=str, default="data/defn_raw_data.jsonl")
+    args.add_argument("--task_files", type=str, help="comma separated list of task files")
     args.add_argument("--dump", action="store_true")
     args.add_argument("--make_samples", action="store_true")
     args = args.parse_args()
 
+    task_files = [path.strip() for path in args.task_files.split(",")]
+
     if args.dump:
-        dump_tasks(args.n, args.template_class, task_types=args.task_types.split(","))
+        dump_tasks(args.n, args.template_class, task_files)
     elif args.make_samples:
         make_samples(
             n=args.n,
