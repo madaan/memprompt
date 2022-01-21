@@ -44,7 +44,7 @@ python stream_with_memory.py --task_file tasks/linguistic/tasks_10.jsonl \
 
 * To run a job with trained retriever, please download the checkpoint from this [anonymous URL](https://anonymshare.com/z8Nm/trained-memory.pt), and set the `CHECKPOINT_PATH` to the path of the checkpoint. Please note that the checkpoint may be deleted by the hosting service after a while. We are sorry for the inconvenience, and promise to make the checkpoint available upon acceptance.
 
-* The tasks folder provides several different task files of various sizes and types for you to try out.
+* The `tasks` folder provides several different task files of various sizes and types for you to try out.
 
 ### Stream with growing prompt
 
@@ -111,11 +111,25 @@ Where:
         - `n` is the number of tasks to create
         - `task` is the task type (hin, pun, or linguistic)
 
-- For example, to create a file with 500 tasks of type `hin` (Hindi prompts), run:
+The generated task files are stored in `tasks/task_type/tasks_n.jsonl`.
+
+- For example, to create a file with 500 tasks of type `hin` (Hindi prompts):
 
 ```sh
 python memprompt/task_handler.py 500 hin
 ```
+
+This creates a file `tasks/hin/tasks_500.jsonl` with 500 tasks.
+
+- To create a file with 300 tasks of type `synthetic_gpt3`:
+
+```sh
+python task_handler.py --dump --n 300 --template_class synthetic_gpt3 --task_files data/gpt3-word-tasks/raw.jsonl
+```
+
+This creates a file `tasks/synthetic_gpt3/tasks_300.jsonl` with 300 tasks.
+
+
 
 ## Processing logs
 
