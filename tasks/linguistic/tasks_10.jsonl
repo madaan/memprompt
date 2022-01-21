@@ -1,10 +1,10 @@
-{"meta": {"word1": "capital", "word2": "capitol"}, "type": "hom", "template_id": "hom2"}
-{"meta": {"word": "house", "sentence": "a new extension for the kitchen and breakfast room faithfully echoes the existing large country house"}, "type": "sent", "template_id": "sent1"}
-{"meta": {"word1": "berry", "word2": "err"}, "type": "hom", "template_id": "hom2"}
-{"meta": {"word": "remittor", "definition": "One who makes a remittance"}, "type": "defn", "template_id": "defn0"}
-{"meta": {"word1": "untypical", "word2": "common"}, "type": "ant", "template_id": "ant0"}
-{"meta": {"word": "grass", "sentence": "wildflowers and grass grow on the meadow ."}, "type": "sent", "template_id": "sent1"}
-{"meta": {"word1": "sonny", "word2": "sunny"}, "type": "hom", "template_id": "hom2"}
-{"meta": {"word": "harbour", "sentence": "a city and harbour on the south coast"}, "type": "sent", "template_id": "sent1"}
-{"meta": {"word": "patrol", "sentence": "a soldier provides security as soldiers patrol through a village in province ."}, "type": "sent", "template_id": "sent1"}
-{"meta": {"word": "inroad", "definition": "The entrance of an enemy into a country with purposes of hostility"}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word1": "unstructured", "word2": "structured"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word1": "confine", "word2": "free"}, "type": "ant", "template_id": "ant1"}
+{"meta": {"word1": "spiral", "word2": "still"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word": "peppercorn", "definition": "A dried berry of the black pepper (Piper nigrum)."}, "type": "defn", "template_id": "defn1"}
+{"meta": {"word": "ordinance", "definition": "A rule established by authority"}, "type": "defn", "template_id": "defn2"}
+{"meta": {"word1": "fancy", "word2": "admire"}, "type": "syn", "template_id": "syn1"}
+{"meta": {"word": "observe", "sentence": "players observe a moments applause for coach"}, "type": "sent", "template_id": "sent1"}
+{"meta": {"word1": "lump", "word2": "separate"}, "type": "ant", "template_id": "ant0"}
+{"meta": {"word1": "succor", "word2": "suer"}, "type": "hom", "template_id": "hom2"}
+{"meta": {"word1": "you", "word2": "lou"}, "type": "hom", "template_id": "hom1"}
