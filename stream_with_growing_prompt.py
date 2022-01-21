@@ -116,7 +116,7 @@ if __name__ == "__main__":
     import argparse
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("--prompt_path", type=str, default="prompt.txt")
+    parser.add_argument("--prompt_path", type=str, default="data/prompts/prompt.txt")
     parser.add_argument("--task_file", type=str)
     parser.add_argument("--getting_clarification_probability", type=float, default=0.5)
     parser.add_argument("--job_id", type=str, default="")

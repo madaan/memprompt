@@ -232,15 +232,15 @@ if __name__ == "__main__":
     args.add_argument("--n", type=int, default=100)
     args.add_argument("--task_types", type=str)
     args.add_argument("--outpath", type=str, default="data/tasks.jsonl")
-    args.add_argument("--task_files", type=str, help="comma separated list of task files")
+    args.add_argument("--raw_files", type=str, help="comma separated list of task files")
     args.add_argument("--dump", action="store_true")
     args.add_argument("--make_samples", action="store_true")
     args = args.parse_args()
 
-    task_files = [path.strip() for path in args.task_files.split(",")]
+    raw_files = [path.strip() for path in args.raw_files.split(",")]
 
     if args.dump:
-        dump_tasks(args.n, args.template_class, task_files)
+        dump_tasks(args.n, args.template_class, raw_files)
     elif args.make_samples:
         make_samples(
             n=args.n,
