@@ -1,4 +1,4 @@
-# Memprompt
+# Memory-assisted prompt editing to improve GPT-3 after deployment
 
 Code for our work [Memory-assisted prompt editing to improve GPT-3 after deployment](https://arxiv.org/abs/2201.06009?context=cs)
 
