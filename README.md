@@ -15,7 +15,7 @@ Code for our work [Memory-assisted prompt editing to improve GPT-3 after deploym
 * To run a streaming job using memory, run the following command:
 
 ```sh
-python memprompt/stream_with_memory.py --task_file ${FILE} \
+python src/streaming/stream_with_memory.py --task_file ${FILE} \
                                         --job_id ${JOB_ID} \
                                         --getting_clarification_probability ${CLARIFICATION_PROB} \
                                         --memory_type ${MEMORY_TYPE} \
@@ -35,7 +35,7 @@ python memprompt/stream_with_memory.py --task_file ${FILE} \
 For example, to run a job with 10 samples on the linguistic variation prompts with a clarification probability of 0.5 and closest memory, run:
 
 ```sh
-python stream_with_memory.py --task_file tasks/linguistic/tasks_10.jsonl \
+python src/streaming/stream_with_memory.py --task_file tasks/linguistic/tasks_10.jsonl \
                                  --job_id  linguistic \
                                  --getting_clarification_probability 0.5 \
                                  --memory_type closest
@@ -52,7 +52,7 @@ python stream_with_memory.py --task_file tasks/linguistic/tasks_10.jsonl \
 * The usage is similar to the streaming with memory, but the prompt grows as the job proceeds.
 
 ```sh
-python memprompt/stream_with_growing_prompt.py  --task_file memprompt/tasks/linguistic/tasks_10.jsonl\ 
+python src/streaming/stream_with_growing_prompt.py  --task_file memprompt/tasks/linguistic/tasks_10.jsonl\ 
                                                 --job_id  linguistic \
                                                 --getting_clarification_probability 0.5
 ```
@@ -101,7 +101,7 @@ python memprompt/stream_with_growing_prompt.py  --task_file memprompt/tasks/ling
 * New tasks can be created by running the following command:
 
 ```sh
-python memprompt/task_handler.py --dump --n n  --template_class task --raw_file raw_files
+python src/utils/task_handler.py --dump --n n  --template_class task --raw_file raw_files
 ```
 
 Where:
@@ -117,7 +117,7 @@ The generated task files are stored in `tasks/task_type/tasks_n.jsonl` .
 * For example, to create a file with 500 tasks of type `hin` (Hindi prompts):
 
 ```sh
-python memprompt/task_handler.py 500 hin
+python src/utils/src/utils/task_handler.py 500 hin
 ```
 
 This creates a file `tasks/hin/tasks_500.jsonl` with 500 tasks.
@@ -125,7 +125,7 @@ This creates a file `tasks/hin/tasks_500.jsonl` with 500 tasks.
 * To create a file with 300 tasks of type `synthetic_gpt3`:
 
 ```sh
-python task_handler.py --dump --n 300 --template_class synthetic_gpt3 --task_files data/gpt3-word-tasks/raw.jsonl
+python src/utils/task_handler.py --dump --n 300 --template_class synthetic_gpt3 --task_files data/gpt3-word-tasks/raw.jsonl
 ```
 
 This creates a file `tasks/synthetic_gpt3/tasks_300.jsonl` with 300 tasks.
@@ -135,7 +135,7 @@ This creates a file `tasks/synthetic_gpt3/tasks_300.jsonl` with 300 tasks.
 To list the progressive scores in a matrix form that can loaded into some Google sheets to generate charts:
 
 ```sh
-python memprompt/utils.py --path memprompt/logs/ --pattern "task_type="
+python src/utils/log_utils.py --path memprompt/logs/ --pattern "task_type="
 ```
 
 * Where:
