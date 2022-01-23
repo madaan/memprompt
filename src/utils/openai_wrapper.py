@@ -4,8 +4,8 @@ import random
 import openai
 import re
 
-from memprompt.closest_match_memory import ClosestMatchMemory
-from memprompt.semantic_memory import SemanticMatchMemory
+from src.memory.closest_match_memory import ClosestMatchMemory
+from src.memory.semantic_memory import SemanticMatchMemory
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 

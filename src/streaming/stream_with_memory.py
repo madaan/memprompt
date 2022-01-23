@@ -5,15 +5,32 @@ import pandas as pd
 import json
 import time
 
-from memprompt.openai_wrapper import OpenaiWrapperWithMemory, Prompt
-from memprompt.task_handler import TaskHandler
+from src.openai_wrapper import OpenaiWrapperWithMemory
+from src.task_handler import TaskHandler
 
 
 class InteractionHandler(object):
-    def __init__(self, prompt_path: str, getting_clarification_probability: float, job_id: str):
-        self.prompt = Prompt(prompt_path)
-        self.lm_hander = OpenaiWrapperWithMemory(prompt=self.prompt, memory=None)
+    def __init__(
+        self,
+        prompt_path: str,
+        getting_clarification_probability: float,
+        job_id: str,
+        memory_type: str,
+        checkpoint_path: str = None
+    ):
 
+        if memory_type == "closest":
+            self.lm_hander = OpenaiWrapperWithMemory.create_with_closest_match_memory(
+                prompt_path=prompt_path
+            )
+        elif memory_type == "semantic":
+            self.lm_hander = OpenaiWrapperWithMemory.create_with_semantic_memory(
+                prompt_path=prompt_path,
+                checkpoint_path=checkpoint_path,
+            )
+        else:
+            raise ValueError(f"Unknown memory type: {memory_type}")
+        self.memory_type = memory_type
         self.task_handler = TaskHandler(job_id)
         self.getting_clarification_probability = getting_clarification_probability
         self.job_id = job_id
@@ -34,9 +51,7 @@ class InteractionHandler(object):
                     f"[INTERACTION] {task_idx} > Question: {question} | Expected answer: {expected_answer}"
                 )
                 # get a question
-                response = self.lm_hander.send_query_with_custom_prompt(
-                    question=question, prompt=self.prompt
-                )
+                response, memory_metadata = self.lm_hander.send_memory_assisted_query(question)
                 # get the answer
                 generated_answer = self.lm_hander.parse_response(response)
                 is_correct = self.task_handler.check_answer(answer=generated_answer, task=task)
@@ -47,10 +62,7 @@ class InteractionHandler(object):
                     prob = random.random()
                     if prob < self.getting_clarification_probability:
                         clarification = self.task_handler.get_clarification(task)
-                        self.prompt.add_example_to_prompt(
-                            question=f"{question} | {clarification}", answer=expected_answer
-                        )
-                        logging.info(f"Prompt updated to {self.prompt.text}")
+                        self.lm_hander.add_feedback(question, clarification)
                 else:
                     num_correct += 1
                 correct_so_far = round(num_correct * 100 / (task_idx + 1), 2)
@@ -64,12 +76,10 @@ class InteractionHandler(object):
                         "is_correct": is_correct,
                         "correct_so_far": correct_so_far,
                         "idx": task_idx,
-                        "prompt_length": len(self.prompt.text.split()),
-                        "prompt": self.prompt.text,
+                        "memory_metadata": memory_metadata,
                         "elapsed_time": time.monotonic_ns() - start_time,
                     }
                 )
-                logging.info(f"[INTERACTION] Prompt len: {len(self.prompt.text.split())}")
             except Exception as e:
                 logging.error(f"[INTERACTION] Error: {e}")
                 conversation_history.append(
@@ -81,12 +91,12 @@ class InteractionHandler(object):
                         "is_correct": False,
                         "correct_so_far": correct_so_far,
                         "idx": task_idx,
-                        "prompt_length": len(self.prompt.text.split()),
-                        "prompt": self.prompt.text,
                         "elapsed_time": time.monotonic_ns() - start_time,
                     }
                 )
                 continue
+
+            # save the conversation history
             logging.info("-" * 80)
             logging.info("-" * 80)
 
@@ -97,7 +107,7 @@ class InteractionHandler(object):
         timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
 
         df.to_json(
-            f"logs/growing_prompt_task_type={self.job_id}_num_tasks={len(tasks)}_clarification_prob={self.getting_clarification_probability}_ts={timestamp}.jsonl",
+            f"logs/{self.memory_type}_memory_task_type={self.job_id}_num_tasks={len(tasks)}_clarification_prob={self.getting_clarification_probability}_ts={timestamp}.jsonl",
             orient="records",
             lines=True,
         )
@@ -116,15 +126,19 @@ if __name__ == "__main__":
     import argparse
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("--prompt_path", type=str, default="data/prompts/prompt.txt")
+    parser.add_argument("--prompt_path", type=str, default="prompt.txt")
     parser.add_argument("--task_file", type=str)
+    parser.add_argument("--memory_type", type=str, choices=["closest", "semantic"])
+    parser.add_argument("--checkpoint_path", type=str)
     parser.add_argument("--getting_clarification_probability", type=float, default=0.5)
     parser.add_argument("--job_id", type=str, default="")
     args = parser.parse_args()
     handler = InteractionHandler(
-        args.prompt_path,
+        prompt_path=args.prompt_path,
+        memory_type=args.memory_type,
         job_id=args.job_id,
         getting_clarification_probability=args.getting_clarification_probability,
+        checkpoint_path=args.checkpoint_path,
     )
     pathlib.Path(f"logs/").mkdir(parents=True, exist_ok=True)
     handler.run(args.task_file)

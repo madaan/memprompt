@@ -6,8 +6,8 @@ from collections import Counter
 from typing import List
 
 
-from memprompt.templates import templates
-from memprompt.templates_gpt3_wordtasks import templates_gpt3_wordtasks
+from src.templates.templates import templates
+from src.templates.templates_gpt3_wordtasks import templates_gpt3_wordtasks
 
 templates.update(templates_gpt3_wordtasks)
 
