@@ -1,6 +1,6 @@
 # Memory-assisted prompt editing to improve GPT-3 after deployment
 
-Code for our work [Memory-assisted prompt editing to improve GPT-3 after deployment](https://arxiv.org/abs/2201.06009?context=cs) -- [(v2 - to appear on arxiv)](memprompt-v2.pdf)
+
 
 ![Memprompt](res/architecture-v2.png)
 
