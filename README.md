@@ -43,7 +43,7 @@ python src/streaming/stream_with_memory.py --task_file tasks/linguistic/tasks_10
 
 * After the job finishes, it'll create a log file in `logs/` in the form: `logs/${task_type}_num_tasks=${num_samples}_clarification_prob=${clarification_prob}_job_id=${job_id}_${timestamp}.jsonl`. For the sample script, the file should be: `closest_memory_task_type=linguistic_num_tasks=10_clarification_prob=0.5_ts=TS.jsonl`.
 
-* To run a job with trained retriever, please download the checkpoint from this [anonymous URL](https://anonymshare.com/z8Nm/trained-memory.pt), and set the `CHECKPOINT_PATH` to the path of the checkpoint. Please note that the checkpoint may be deleted by the hosting service after a while. We are sorry for the inconvenience, and promise to make the checkpoint available upon acceptance.
+* To run a job with trained retriever, please download the checkpoint ([link](https://tinyurl.com/mempromptckpt)), and set the `CHECKPOINT_PATH` to the path of the checkpoint. Please note that the checkpoint may be deleted by the hosting service after a while. We are sorry for the inconvenience, and promise to make the checkpoint available upon acceptance.
 
 * The `tasks` folder provides several different task files of various sizes and types for you to try out.
 
