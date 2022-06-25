@@ -6,7 +6,7 @@
 
 ## Running a job
 
-* _Please note that you need to `export OPENAI_API_KEY="YOUR_OPENAI_KEY` before running the scripts._
+* _Please note that you need to `export OPENAI_API_KEY="YOUR_OPENAI_KEY"` before running the scripts._
 
 * The required libraries are listed in the requirements.txt file.
 
