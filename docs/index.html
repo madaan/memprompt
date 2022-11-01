@@ -3,6 +3,26 @@ layout: default
 ---
 
  <head>
+  <style type='text/css'>
+    body {
+      background-color: black
+    }
+    
+    #wrapper{
+ text-align:center;
+}
+    h2 {
+      color: blue;
+    }
+    h3 {
+      color: green;
+    }
+    table
+{ 
+margin-left: auto;
+margin-right: auto;
+}
+  </style>
  <link rel="stylesheet" href="/assets/css/main.css">
 <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
 <script src="/assets/js/common.js"></script>
@@ -28,7 +48,6 @@ $(document).ready(function(){
 <div>
 <h2> </h2>
 
-<h3>Overview Video</h3>
 
 <div>
   <center>
@@ -53,19 +72,43 @@ $(document).ready(function(){
 </div> -->
 
 <!--make a table with the above four things-->
-<h3>Code and Paper</h3>
-<center>
-<table>
-<tr>
-  <!--github first-->
-  <td><a href="https://github.com/madaan/memprompt" target="_blank"><img src="/assets/images/github.png" alt="github" style="width:40%"></a></td>
-  <td><a href="https://arxiv.org/abs/2201.06009" target="_blank"><img src="/assets/images/paper.png" alt="arxiv" style="width:20%"></a></td>
-</tr>
-</table>
-</center>
 <hr>
-<h3> More resources</h3>
-<p>The general workflow of memprompt is <a href="/flow">here</a>.</p>
+<h2>Code and Paper</h3>
+
+<div id="wrapper">
+  <figure>
+    <a href="https://github.com/madaan/memprompt" target="_blank"><img src="/assets/images/github.png" alt="github" style="width:20%;margin-right:10px;"></a>
+    <a href="https://arxiv.org/abs/2201.06009" target="_blank"><img src="/assets/images/paper.png" alt="arxiv" style="width:20%;margin-left:10px;"></a>
+  
+  </figure>
+  </div>
+
+<hr> 
+
+<h2>MemPrompt: Workflow</h2> 
+
+
+<h3>Adding New Feedback To Memory</h3>
+<div class="image fit">
+    <img src="/assets/gifs/memprompt-populate.gif" alt="MemPrompt" />
+    <figcaption><b>Memory is populated with new feedback: </b>A user enters a question for which no feedback is available (steps 1, 2).
+        Directly prompting GPT-3 with the question leads to incorrect answer and understanding (step 3). User-provides
+        feedback on the incorrect understanding (step 4), which is added to memory (step 5).</figcaption>
+</div>
+
+<h3>Utilizing Old Feedback To Answer New Questions</h3>
+
+<div class="image fit">
+    <img src="/assets/gifs/memprompt-retrieve.gif" alt="MemPrompt" />
+    <figcaption><b>Retrieving feedback from memory:</b> A user enters a question which GPT-3 has incorrectly
+        answered in the past, and has received feedback from a user (step 1). The feedback is retrieved from memory (step
+        2), and both question and feedback are added to the prompt. The prompt contains examples that allow GPT-3 to
+        react to user feedback and generate correct understanding and answer.</figcaption>
+</div>
+
+<hr>
+<h2> More resources</h2>
+
 
 Checkout the videos below from Yannic Kilcher's Machine Learning Youtube channel MemPrompt.
 <div style="width:950px;">
