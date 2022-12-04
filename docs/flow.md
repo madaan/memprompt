@@ -5,7 +5,7 @@ layout: home
 <article>
     
 <!--add two gifs with captions one over other-->
-    <h2>Adding New Feedback To Memory</h2>
+    <h3>Adding New Feedback To Memory</h3>
     <div class="image fit">
         <img src="/assets/gifs/memprompt-populate.gif" alt="MemPrompt" />
         <figcaption><b>Memory is populated with new feedback: </b>A user enters a question for which no feedback is available (steps 1, 2).
@@ -14,7 +14,7 @@ layout: home
     </div>
     
     <hr>
-    <h2>Utilizing Old Feedback To Answer New Questions</h2>
+    <h3>Utilizing Old Feedback To Answer New Questions</h3>
     
     <div class="image fit">
         <img src="/assets/gifs/memprompt-retrieve.gif" alt="MemPrompt" />

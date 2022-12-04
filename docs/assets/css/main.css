@@ -450,6 +450,7 @@ footer a:hover { color: #75a7bd; }*/
 .bibliography li span.abstract.hidden.open { border-color: #828282; }
 .bibliography abbr { border: none; cursor: inherit; position: absolute; left: -7em; }
 
+
 blockquote { border-left: 5px solid #7a7a7a; font-style: italic; margin-left: 0.5rem; padding: 0.5rem; }
 
 blockquote footer { background-color: #fff; border-color: transparent; color: #7a7a7a; font-size: .85rem; font-style: normal; text-align: left; padding: 0; }
