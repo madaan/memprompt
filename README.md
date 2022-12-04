@@ -1,5 +1,6 @@
 # Memory-assisted prompt editing to improve GPT-3 after deployment
 
+Code and data for our work (memprompt)[https://arxiv.org/abs/2201.06009], EMNLP 2022.
 
 
 ![Memprompt](res/architecture-v2.png)
