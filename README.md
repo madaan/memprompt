@@ -3,6 +3,11 @@
 Code and data for our work [memprompt](https://arxiv.org/abs/2201.06009), EMNLP 2022.
 
 
+![image](https://user-images.githubusercontent.com/1304693/205474858-d1a39178-b987-4c57-b4ec-557d67f0139c.png)
+
+
+## Architecture
+
 ![Memprompt](res/architecture-v2.png)
 
 ## Running a job
@@ -10,6 +15,11 @@ Code and data for our work [memprompt](https://arxiv.org/abs/2201.06009), EMNLP 
 * _Please note that you need to `export OPENAI_API_KEY="YOUR_OPENAI_KEY"` before running the scripts._
 
 * The required libraries are listed in the requirements.txt file.
+
+
+## Notebook
+
+* This [notebook](https://github.com/madaan/memprompt/blob/main/YoavsPythonPrompts.ipynb) implements a version of memprompt (called grow-prompt in the paper) for simulating a Python terminal. The repo has a lot more going on, including memory-based querying, but this notebook captures one important aspect of the work (stateful interactions with few-shot models).
 
 ### Streaming with memory
 
